@@ -1,0 +1,99 @@
+{
+  "model_architecture": "MobileNetV3-Small (Transfer Learning)",
+  "backbone": "ImageNet Pretrained",
+  "evaluated_dataset": "PlantVillage + PlantDoc Curated Benchmark with Field Out-of-Distribution Rejection",
+  "device_used": "cpu",
+  "training_epochs": 6,
+  "test_sample_count": 72,
+  "overall_test_accuracy": 0.5972,
+  "macro_avg_f1": 0.5049,
+  "class_wise_metrics": {
+    "Background_or_Unknown": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    },
+    "Corn___Common_rust": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    },
+    "Corn___healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 6
+    },
+    "Pepper__bell___Bacterial_spot": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    },
+    "Pepper__bell___healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 6
+    },
+    "Potato___Early_blight": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 6
+    },
+    "Potato___Late_blight": {
+      "precision": 1.0,
+      "recall": 0.1667,
+      "f1_score": 0.2857,
+      "support": 6
+    },
+    "Potato___healthy": {
+      "precision": 0.25,
+      "recall": 1.0,
+      "f1_score": 0.4,
+      "support": 6
+    },
+    "Tomato___Early_blight": {
+      "precision": 0.5,
+      "recall": 1.0,
+      "f1_score": 0.6667,
+      "support": 6
+    },
+    "Tomato___Late_blight": {
+      "precision": 0.5455,
+      "recall": 1.0,
+      "f1_score": 0.7059,
+      "support": 6
+    },
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 6
+    },
+    "Tomato___healthy": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1_score": 0.0,
+      "support": 6
+    }
+  },
+  "classes_order": [
+    "Background_or_Unknown",
+    "Corn___Common_rust",
+    "Corn___healthy",
+    "Pepper__bell___Bacterial_spot",
+    "Pepper__bell___healthy",
+    "Potato___Early_blight",
+    "Potato___Late_blight",
+    "Potato___healthy",
+    "Tomato___Early_blight",
+    "Tomato___Late_blight",
+    "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+    "Tomato___healthy"
+  ],
+  "timestamp": "2026-11-17T15:47:06Z"
+}

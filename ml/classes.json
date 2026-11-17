@@ -1,0 +1,202 @@
+{
+  "classes": [
+    {
+      "id": "Tomato___Early_blight",
+      "crop": "Tomato",
+      "condition": "Early Blight",
+      "pathogen": "Alternaria solani",
+      "is_healthy": false,
+      "description": "A common fungal disease characterized by brown-black spots with concentric rings ('target board' pattern) initially appearing on older, lower foliage.",
+      "symptoms": [
+        "Dark brown to black necrotic spots with concentric rings",
+        "Yellow chlorotic halo surrounding lesions",
+        "Lower leaves yellowing and dropping prematurely",
+        "Stem collar rot in severe cases"
+      ],
+      "next_steps": [
+        "Prune and safely destroy heavily infected lower leaves (do not compost).",
+        "Avoid overhead irrigation; switch strictly to drip irrigation to keep foliage dry.",
+        "Ensure wide plant spacing (at least 45-60 cm) to enhance airflow and sunlight penetration.",
+        "Apply organic copper fungicide or Trichoderma viride preventive bio-spray under agricultural supervision."
+      ]
+    },
+    {
+      "id": "Tomato___Late_blight",
+      "crop": "Tomato",
+      "condition": "Late Blight",
+      "pathogen": "Phytophthora infestans",
+      "is_healthy": false,
+      "description": "An aggressive, fast-spreading oomycete water-mold disease that attacks foliage and green fruit in cool, humid, overcast weather.",
+      "symptoms": [
+        "Irregular water-soaked, dark greasy lesions on leaves and stems",
+        "White downy fungal fuzz visible on leaf undersides during humid mornings",
+        "Rapid browning and collapse of entire foliage canopy",
+        "Greasy, firm dark brown rot on green and ripe tomato fruits"
+      ],
+      "next_steps": [
+        "Immediately isolate affected plants to prevent rapid field-wide dissemination.",
+        "Cease sprinkler/overhead watering immediately.",
+        "Remove and bag infected vines during dry afternoon hours.",
+        "Consult local Krishi Vigyan Kendra (KVK) for recommended systemic oomycete protection."
+      ]
+    },
+    {
+      "id": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+      "crop": "Tomato",
+      "condition": "Yellow Leaf Curl Virus (TYLCV)",
+      "pathogen": "Begomovirus (vectored by Silverleaf Whitefly)",
+      "is_healthy": false,
+      "description": "A destructive viral disease transmitted by the whitefly (Bemisia tabaci) leading to severe stunting and aborted flower formation.",
+      "symptoms": [
+        "Severe upward curling and cupping of leaflets",
+        "Interveinal yellowing (chlorosis) and reduced leaf blade size",
+        "Bushy, stunted plant architecture",
+        "Flower drop resulting in drastic yield loss"
+      ],
+      "next_steps": [
+        "Control whitefly vectors using yellow sticky traps (15-20 traps per acre).",
+        "Spray neem seed kernel extract (NSKE 5%) or approved biological insecticides.",
+        "Rogue out and destroy severely stunted plants to avoid virus reservoir build-up.",
+        "Use insect-proof netting in seedling nursery trays."
+      ]
+    },
+    {
+      "id": "Tomato___healthy",
+      "crop": "Tomato",
+      "condition": "Healthy Foliage",
+      "pathogen": null,
+      "is_healthy": true,
+      "description": "Vibrant, turgid green foliage showing no observable lesions, chlorosis, wilting, or insect defoliation.",
+      "symptoms": [
+        "Uniform rich green color across leaf surface",
+        "Normal venation and smooth leaflet margins",
+        "Robust stem vigor and clean nodal growth"
+      ],
+      "next_steps": [
+        "Maintain current drip irrigation schedule matching crop stage evapotranspiration.",
+        "Continue balanced NPK fertigation schedule.",
+        "Perform routine twice-weekly scouting on lower leaf undersides."
+      ]
+    },
+    {
+      "id": "Potato___Early_blight",
+      "crop": "Potato",
+      "condition": "Early Blight",
+      "pathogen": "Alternaria solani",
+      "is_healthy": false,
+      "description": "Fungal pathogen that targets older foliage of Solanaceous crops, reducing tuber bulking efficiency.",
+      "symptoms": [
+        "Angular brown-black spots with concentric ridges",
+        "Premature defoliation of lower canopy",
+        "Dry brown lesions on stem base"
+      ],
+      "next_steps": [
+        "Maintain adequate nitrogen and potassium fertility to avoid plant stress.",
+        "Allow foliage to completely dry before morning cultivation.",
+        "Practice minimum 2-year crop rotation away from Solanaceae."
+      ]
+    },
+    {
+      "id": "Potato___Late_blight",
+      "crop": "Potato",
+      "condition": "Late Blight",
+      "pathogen": "Phytophthora infestans",
+      "is_healthy": false,
+      "description": "The historic cause of potato famine; spreads rapidly in high humidity (>90%) and temperatures between 15-22°C.",
+      "symptoms": [
+        "Water-soaked dark lesions starting from leaf tips and margins",
+        "White mildew on undersides under high humidity",
+        "Tuber rot with reddish-brown dry granular flesh beneath skin"
+      ],
+      "next_steps": [
+        "Kill vines 10-14 days before harvest to prevent tuber contamination at digging.",
+        "Hill up soil properly to cover tubers deeply from spore runoff.",
+        "Seek certified disease-free seed tubers for subsequent cycles."
+      ]
+    },
+    {
+      "id": "Potato___healthy",
+      "crop": "Potato",
+      "condition": "Healthy Foliage",
+      "pathogen": null,
+      "is_healthy": true,
+      "description": "Robust, deep-green compound leaves without blight spots or chlorotic mottling.",
+      "symptoms": [
+        "Crisp, even foliage without dark spots",
+        "Healthy floral development or vegetative canopy closure"
+      ],
+      "next_steps": [
+        "Maintain soil moisture at 65-75% field capacity during tuber initiation.",
+        "Monitor weather forecasts for sudden humidity spikes."
+      ]
+    },
+    {
+      "id": "Pepper__bell___Bacterial_spot",
+      "crop": "Capsicum / Bell Pepper",
+      "condition": "Bacterial Spot",
+      "pathogen": "Xanthomonas campestris pv. vesicatoria",
+      "is_healthy": false,
+      "description": "Bacterial disease spread by splashing rain, wind-driven moisture, and handling wet plants.",
+      "symptoms": [
+        "Small, circular to irregular water-soaked spots turning dark brown",
+        "Raised scabby texture on lower leaf surface",
+        "Severe leaf drop exposing fruit to sunscald"
+      ],
+      "next_steps": [
+        "Never work in or cultivate the field when foliage is wet from morning dew or rain.",
+        "Sterilize pruning tools between plants using 70% isopropyl alcohol.",
+        "Apply certified copper bactericide in combination with mancozeb as per agricultural extension guidelines."
+      ]
+    },
+    {
+      "id": "Pepper__bell___healthy",
+      "crop": "Capsicum / Bell Pepper",
+      "condition": "Healthy Foliage",
+      "pathogen": null,
+      "is_healthy": true,
+      "description": "Healthy bell pepper foliage with shiny, intact dark green lamina.",
+      "symptoms": [
+        "Glossy green leaves with uniform surface",
+        "Firm stem nodes and active flower buds"
+      ],
+      "next_steps": [
+        "Support plants with staking or trellis to prevent lodging.",
+        "Maintain uniform moisture to prevent blossom end rot."
+      ]
+    },
+    {
+      "id": "Corn___Common_rust",
+      "crop": "Corn / Maize",
+      "condition": "Common Rust",
+      "pathogen": "Puccinia sorghi",
+      "is_healthy": false,
+      "description": "Airborne fungal disease that creates powdery cinnamon-brown pustules on both upper and lower leaf surfaces.",
+      "symptoms": [
+        "Oval to elongate cinnamon-brown pustules (uredinia) on leaf blades",
+        "Powdery rust spores rubbing off on fingers",
+        "Leaves turning yellow and withering in heavy infestations"
+      ],
+      "next_steps": [
+        "Plant rust-resistant hybrids recommended for Maharashtra Kharif/Rabi seasons.",
+        "Maintain balanced fertilization; avoid excess nitrogen.",
+        "Scout whorl and ear leaves weekly."
+      ]
+    },
+    {
+      "id": "Corn___healthy",
+      "crop": "Corn / Maize",
+      "condition": "Healthy Foliage",
+      "pathogen": null,
+      "is_healthy": true,
+      "description": "Vigorous maize leaves showing clean venation and sturdy whorl growth.",
+      "symptoms": [
+        "Broad, smooth green leaves with unbroken midrib",
+        "No pustules, stripes, or necrotic tips"
+      ],
+      "next_steps": [
+        "Ensure adequate moisture during silking and tasseling phases.",
+        "Side-dress nitrogen as per soil test recommendations."
+      ]
+    }
+  ]
+}
